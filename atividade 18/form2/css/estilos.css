@@ -1,0 +1,59 @@
+* form {
+  display: grid;
+  background: #88cca4;
+  padding: 50px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 100px;
+  line-height: 1.5;
+  position: relative;
+
+}
+
+.marcatexto {
+
+  background: #cc9900;
+  display: inline;
+  padding: 3px;
+  position: relativa;
+  font: 16px impact;
+  text-align: center;
+  border: 1px;
+  border-radius: 10px;
+
+}
+
+p {
+  font: 14px impact;
+  text-align: center;
+}
+
+input[type=text] {
+
+  line-height: 1.5;
+  box-sizing: border-box;
+  border-radius: 10 px;
+  width: 100%;
+  font: 12px impact;
+  text-align: right;
+
+}
+
+textarea {
+
+  overflow-y: scroll;
+  line-height: 1.5;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 300;
+}
+
+input[type=submit] {
+
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}

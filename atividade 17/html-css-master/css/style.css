@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  /* CSS RESET */
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #336677;
+}
+
+div {
+  border: 1px solid #000;
+}
+
+#geral,
+#topo,
+#menu,
+#lateral,
+#conteudo,
+#rodape {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+  -moz-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+  -webkit-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+}
+
+#geral {
+  width: 960px;
+  background-color: rgba(120, 210, 189, 0.6);
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#topo {
+  width: 900px;
+  height: 240px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-color: rgba(145, 220, 230, 0.6);
+  box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+  -moz-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+  -webkit-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+}
+
+#menu {
+  width: 900px;
+  height: 60px;
+  background-color: rgba(145, 189, 234, 0.6);
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#lateral {
+  float: left;
+  /* importante para criar uma coluna lateral */
+  width: 200px;
+  height: 700px;
+  background-color: rgba(123, 200, 240, 0.6);
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#conteudo {
+  float: right;
+  /* importante para criar uma coluna lateral */
+  width: 670px;
+  height: 700px;
+  background-color: rgba(98, 145, 240, 0.8);
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#separa {
+  width: 630px;
+  height: 40px;
+  background-color: rgba(245, 245, 245, 0.7);
+  margin-left: 20px;
+  margin-top: 320px;
+
+  border-radius: 10px;
+  /* chrome */
+  -moz-border-radius: 10px;
+  /* firefox */
+  -webkit-border-radius: 10px;
+  /* IE */
+
+  box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+  -moz-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+  -webkit-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+}
+
+#rodape {
+  width: 900px;
+  height: 50px;
+  background-color: rgba(99, 251, 200, 0.7);
+  margin-left: 30px;
+  clear: both;
+  /* limpa o left e o ritgh - para que a lateral e o conteúdo fiquem um ao lado do outro dentro do geral*/
+  margin-bottom: 10px;
+}

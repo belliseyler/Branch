@@ -1,0 +1,50 @@
+
+
+* form {
+
+  display: grid;
+  background: #e7dada;
+  font: 12px arial, verdana, helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 50px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin: 100px
+}
+
+input[type=text] {
+
+  line-height: 1.5;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 100%;
+}
+
+textarea {
+  overflow-y: scroll;
+  line-height: 1.5;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 100%;
+
+
+
+}
+
+input[type=submit] {
+
+  background: #bcd8e6;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+p {
+  font: 14px impact;
+  text-align: center;
+}

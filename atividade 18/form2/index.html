@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title> Fomulário 2</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+
+
+  <form name="formulario" method="xxxx">
+
+    <p class="marcatexto">
+
+      <span><br>SISTEMA DE GESTÃO ACADÊMICA</span>
+    </p>
+    <p> MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</p>
+
+    <table>
+      <tr>
+        <td>
+          <label for="name">Login:</label>
+        </td>
+        <td>
+          <input type="username" id="username" name="login" size="25" maxlength="35" />
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="nome">Senha:</label>
+        </td>
+        <td>
+          <input type="password" id="pwd" name="Senha" size="25" maxlength="35" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Status:</label>
+        </td>
+        <td>
+          <select id="Status" name="Status">
+            <option value="" selected="selected">-- Selecione --</option>
+            <optgroup label="Secretária">
+              <option value="M">Matricula</option>
+              <option value="N">Negociação</option>
+              <option value="T">Transferência</option>
+              <option value="D">Documentação</option>
+            </optgroup>
+            <optgroup label="Cordenação">
+              <option value="C">Cursos</option>
+              <option value="M">Marcar Visita</option>
+              <option value="E">Elogios e reclamação</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label>Tipo</label>
+        <td>
+
+          <input type="radio" id="opt" name="opt" value="SIM" />
+          <label for="opt">Técnico</label>
+          <input type="radio" id="opt" name="opt" value="NAO" checked />
+          <label for="opt">Professor</label>
+          <input type="radio" id="opt" name="opt" value="NAO" checked />
+          <label for="opt">Aluno</label>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="data">Data de Criação</label>
+        </td>
+        <td>
+          <input type="date" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Perfil</label>
+        </td>
+        <td>
+          <input type="radio" id="opt" name="opt" value="SIM" />
+          <label for="opt">Convidado</label>
+          <input type="radio" id="opt" name="opt" value="NAO" checked />
+          <label for="opt">Administrador</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="coment">Observações:</label>
+        </td>
+        <td>
+
+          <textarea rows="5" cols="40" id="text"></textarea>
+
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <label>Módulos</label>
+        </td>
+        <td>
+          <input type="checkbox" id="compras" name="compras" value=compras />
+          <label for="compras">Compras</label>
+          <input type="checkbox" id="biblioteca" name="biblioteca" value=biblioteca />
+          <label for="biblioteca">Biblioteca</label>
+          <input type="checkbox" id="academico" name="academico" value=academico />
+          <label for="academico">Academico</label>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="compras" name="compras" value=compras />
+          <label for="compras">Documentação</label>
+          <input type="checkbox" id="biblioteca" name="biblioteca" value=biblioteca />
+          <label for="biblioteca">Recursos Humanos</label>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <input type="submit" id="cadastrar" name="cadastrar" value="CADASTRAR" />
+          <input type="submit" id="Excluir" name="Excluir" value="EXCLUIR" />
+        </th>
+      </tr>
+
+    </table>
+  </form>
+</body>
+
+</html>
