@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ergon css</title>
+  <meta charset="UTF-8">
+  <title>Contato personalização</title>
+
+  <style>
+
+  
+
+      
+    body{
+
+        background-color: #f7cf08;
+        
+    }
+
+    h1{
+      color:red;
+      font-family: sans-serif;
+      text-align-last: center;
+    }
+    .home{
+      
+      align-items:center;
+      width: 80px;
+      height:80px;
+    }
+    .caixa{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: stretch;
+     justify-content: center;
+      
+    }
+
+  </style>
+</head>
+<body>
+<br>
+<h1 class="destak"> Atendimento ErgonCar Ltda.</h1>
+<br>
+  
+<div class= "caixa">
+  <div id="after_submit"></div>
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    
+    <div class="row">
+      <label class="required" for="name">Nome do Cliente:</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+
+   <div class="row">
+      <label class="required" for="email">Seu e-email:</label><br />
+      <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      <span id="email_validation" class="error_message"></span>
+   </div>
+
+    <div class="row">
+      <label class="required" for="message"> Escreva sua mensagem:</label><br />
+      <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      <span id="message_validation" class="error_message"></span>
+    </div>
+    
+    <input id="submit_button" type="submit" value="Enviar" />
+
+    <p> Aguarde, logo respoderemos!</p>
+  </div>
+    <br>
+    <br>
+    <a href="index.html" target="blank">
+    <img src="imagens/home.jpg" class="home">
+    </a>
+
+</body>
+</html>
