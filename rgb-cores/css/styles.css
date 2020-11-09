@@ -1,0 +1,21 @@
+.label {
+  height: 2000px;
+}
+
+.inputTxt {
+  background-color: #9ca8ad00;
+  border: 0px;
+}
+
+.container {
+  text-align: center;
+  width: 99%;
+  background-color: aliceblue;
+  font-size: larger;
+}
+
+#divCor {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}

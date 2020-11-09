@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt br">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Detran-MG</title>
+  
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      />
+      <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+      <script src="js/script.js" defer></script>      
+    </head>
+  
+  <body>
+    <div class="container">
+      <p>
+       Formulário para consulta e reularização de multas e pontos na carteira de
+       habilitação. 
+      </p>
+
+      <hr id="hr2"/>
+      <form id="form">
+        <label for="velocidade">Velocidade da via</label>
+        <input id="via" type="text" placeholder="Ex:120" required />
+        <br/>
+        <label for="velocidade">Velocidade do veículo</label>
+        <input id="veiculo" type="text" placeholder="Ex:140"  required/>
+  
+        <div id="info" class="isHidden">
+          <span>Pontuação: </span> <span id="pontuacaoInfo">-</span>
+          <br/>
+          <span>Multa: </span> <span id="multaInfo">-</span>
+        </div>
+  
+        <div id="buttons">
+          <input id="consultar" type="submit" value="Consultar" />
+          <input
+            id="regularizar"
+            type="button"
+            value="Regularizar"
+            class="isHidden"
+          />
+        </div>
+      </form>
+  
+      
+      <div id="infracao" class="isHidden">
+        <label>Condutor</label>
+        <input id="condutorInput" type="text" required />
+  
+        <label>Habilitação</label>
+        <input id="habilitacaoInput" type="number"  required/>
+        
+        <label>Pontuação</label>
+        <input type="text" disabled id="pontuacaoText" />
+  
+        <label>Multa</label>
+        <input type="text" disabled id="multaText" />
+  
+        <input
+          type="button"
+          id="printButton"
+          value="Imprimir"
+        />
+      </div>
+
+      <hr id="hr2"/>
+    </div>
+  </body>
+</html>
